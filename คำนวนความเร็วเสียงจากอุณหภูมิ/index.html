@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    
+        <div class="header-0">
+            <div class="header-1">
+                 คำนวนอัตราเร็วเสียงในอากาศ จากอุณหภูมิ
+                  </div>
+                  <div class="input_temperature-head">
+                  <div class="input_temperature">
+                  
+                     <p> ป้อนอุณหภูมิเพื่อคำนวน</p>
+                     <input type="number" class="input-box" placeholder="ป้อนอุณหภูมิเพื่อคำนวน" id="speed_sound">
+
+                     <button onclick="calculate_speed(document.getElementById('speed_sound').value)">คำนวน</button>
+                    
+                    <div class="header-answer">                     
+                                 <div id="tepurature_answer" class="tepurature_answer">อุณหภูมิ : </div>
+                                 <div id="speed_sound1">อัตราเร็วเสียง : </div>                                   
+                                 <div id="tempurature_answer"></div>
+                  </div>
+                </div>
+                    
+                </div>
+            </div>
+        
+
+        
+    <script src="app.js"></script>
+</body>
+</html>
